@@ -1,6 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Trispace:wght@100&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Trispace:wght@100;800&display=swap');
 
+*{
+    margin: 0;
+}
+
 h1{
     color: rgb(232, 128, 2);
     font-family: 'Trispace', sans-serif; font-weight: 100;
@@ -21,7 +25,7 @@ td{
 
 table{
     justify-content: center;
-    border: 1px solid;
+    border: 1px groove;
 }
 caption{
     border: 1px;
