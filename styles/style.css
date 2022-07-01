@@ -5,37 +5,44 @@
     margin: 0;
 }
 
-h1{
-    color: rgb(232, 128, 2);
+h1 {
+    padding-top: 10px ;
+    padding-bottom: 10px;
+    display: flex;
+    justify-content: center;
     font-family: 'Trispace', sans-serif; font-weight: 100;
     
 }
 
-th{
+h2{
+    padding-top: 10px ;
+    padding-bottom: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+p{
+    padding: 0px 30px;
+    display: flex;
+    justify-content: center;
+}
+
+
+
+th td{
     padding: 10px;
     font-family: 'Trispace', sans-serif; font-weight: 800;
     
 }
 
-td{
-    
-    padding: 10px;
-    font-family: 'Trispace', sans-serif; font-weight: 700;
-}
 
-table{
-    justify-content: center;
-    border: 1px groove;
-}
-caption{
-    border: 1px;
-}
 
-body{
-    background: rgb(34,193,195);
+html{
+ 
 background: linear-gradient(180deg, rgba(34,193,195,1) 0%, rgba(253,187,45,1) 100%);
 }
 
-.imagem {
-    width: 50%;
+.tabela{
+    margin-left: auto;
+    margin-right: auto;
 }
