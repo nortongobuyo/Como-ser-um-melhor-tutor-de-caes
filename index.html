@@ -8,6 +8,7 @@
         <link rel="stylesheet" href="styles/style.css">
     </head>
     <body>
+      <script src="js/script.js"></script>
           <h1 class="titulo">Linguagem corporal do seu melhor amigo</h1>       
            <p class="texto"> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eaque adipisci dolorum, consequatur reprehenderit perspiciatis dolores perferendis nihil quisquam at. Dolorem in hic recusandae perferendis,
             tempore similique maxime porro magnam. Cupiditate. </p>
@@ -47,7 +48,7 @@
   </tbody>
 </table>  
       
-<!--   
+<!--   Usado para botar um video do youtube/vimeo etc
   <iframe 
   width="560" 
   height="315"
@@ -58,8 +59,27 @@
   </iframe>
 -->    
           
+<form action="">
+  <fieldset>
+    <legend>Contato</legend>
 
- </body>
+    <label for="name">Nome:</label><br>
+    <input id="name" type="texto" name="name" ><br><br>
+  
+
+    <label for="email">Email:</label><br>
+    <input id ="email" type="email" name="email" ><br><br>
+
+    <label for="message">Mensagem:</label><br>
+    <textarea id="message" name="message" cols="21" rows="10"></textarea><br><br>
+
+    <button type="reset">Enviar</button>
+
+  </fieldset>
+</form>
+
+
+</body>
    
 </html>
  
